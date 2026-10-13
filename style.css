@@ -19,7 +19,7 @@ body {
 
 /* Navigation menu */
 nav {
-    background-color: #17365d;
+    background-color: #f070ac;
     padding: 18px;
     position: sticky;
     top: 0;
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2e5984;
+    background-color: #ec58bf;
 }
 
 /* Main content layout */
@@ -55,7 +55,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 12px;
@@ -66,7 +66,7 @@ section {
 
 /* Headings and typography */
 h1 {
-    color: #17365d;
+    color: #d02692;
     font-size: 2.2rem;
     text-align: center;
     margin-bottom: 20px;
@@ -107,7 +107,7 @@ p {
 #skills p {
     background-color: #eaf1f8;
     padding: 15px;
-    border-left: 4px solid #245b8f;
+    border-left: 4px solid #dc59b5;
     border-radius: 5px;
 }
 
@@ -127,7 +127,7 @@ form div {
 
 label {
     font-weight: bold;
-    color: #17365d;
+    color: #f362a3;
 }
 
 input,
@@ -142,7 +142,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-    outline: 2px solid #4b86bd;
+    outline: 2px solid #e75d9d;
     border-color: #245b8f;
 }
 
@@ -151,7 +151,7 @@ textarea {
 }
 
 button {
-    background-color: #17365d;
+    background-color: #f070ac;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -163,12 +163,12 @@ button {
 }
 
 button:hover {
-    background-color: #2e5984;
+    background-color: #b5517f;
 }
 
 /* Footer */
 footer {
-    background-color: #17365d;
+    background-color: #f070ac;
     color: white;
     text-align: center;
     padding: 25px 15px;
@@ -209,4 +209,15 @@ footer a:hover {
     #home img {
         height: auto;
     }
+    
+
+    
 }
+h2, h3, h4, h5, h6 {
+    color: #eb7ac1;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
