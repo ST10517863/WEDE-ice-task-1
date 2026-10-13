@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="BJavu">
+        <meta name="description" content="Profile page with HTML tags and contact details">
+        <meta name="keywords" content="html, tags, web, development, contact">
+        <title>HTML Tags - Images</title>
+    </head>
+    <body>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home">
+                <h1>HTML Profile page</h1>
+                <a href="https://placehold.co/" target="_blank">Image Placeholder</a>
+                <img
+                    src="https://placehold.co/600x400"
+                    alt="A placeholder image to be replaced by a sunset scene"
+                    width="500"
+                    height="500"
+                >
+            </section>
+
+            <section id="profile">
+                <h2>Full name</h2>
+                <p>Bukhulubenkosi Javu</p>
+
+                <h2>Short personal description</h2>
+                <p>I am a creative student who is currently pursuing software development. I am passionate about improving my web development skills.</p>
+
+                <h2>Current Studies</h2>
+                <p>Higher certificate in mobile application and web development</p>
+
+                <h2>Technologies currently used</h2>
+                <p>HTML</p>
+
+                <h2>Previous studies</h2>
+                <p>National Senior Certificate</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>Problem solving, communication, web development and adaptability</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Web development Cod. All rights reserved</p>
+            <a href="mailto:ST10517863@myemeris.edu.za">Email me: ST10517863@myemeris.edu.za</a>
+        </footer>
+    </body>
+</html>
